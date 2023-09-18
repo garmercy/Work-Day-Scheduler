@@ -1,10 +1,12 @@
 # :computer: Third-Party-APIs: Work Day Scheduler :computer:
 
-I created a calendar application that allows a user to save events for each hour of a typical working day (9am–5pm) by modifying starter code. 
+I created a calendar application that  by modifying starter code. 
 
 The goals of this project are:
-* run in the browser 
-* feature dynamically updated HTML and CSS powered by jQuery.
+* Allows a user to save events for each hour of a typical working day (9am–5pm).
+* Run in the browser. 
+* Feature dynamically updated HTML and CSS powered by jQuery.
+  
   
 ## How is it looks?
 
