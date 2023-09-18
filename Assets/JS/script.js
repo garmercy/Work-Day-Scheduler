@@ -1,11 +1,13 @@
-//displayed at the top of the calendar the current day
-var currentDayEl = $('#currentDay');
-currentDayEl.text(dayjs().format("dddd, MMMM D"));
-console.log(dayjs());
-//missing advancedformat
+//Displayed at the top of the calendar the current day
 
+  // currentDateEl linked with html element
+  var currentDateEl = $('#currentDay');
 
+  // Displaying today's date using moment format.
+  var today = moment().format('dddd MMMM, Do');
+  currentDateEl.text(today);
 
+  var container = $(".containerBlocks");
 
 
 
