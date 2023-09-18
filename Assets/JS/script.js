@@ -1,3 +1,17 @@
+//displayed at the top of the calendar the current day
+var currentDayEl = $('#currentDay');
+currentDayEl.text(dayjs().format("dddd, MMMM D"));
+console.log(dayjs());
+//missing advancedformat
+
+
+
+
+
+
+
+
+
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
