@@ -5,14 +5,14 @@ I created a calendar application that allows a user to save events for each hour
 The goals of this project are:
 * run in the browser 
 * feature dynamically updated HTML and CSS powered by jQuery.
-* 
+  
 ## How is it looks?
 
 
 ## User Story
 
 As an employer:
-* _AS AN employee with a busy schedule
+_AS AN employee with a busy schedule
 <br>I WANT to add important events to a daily planner
 <br>SO THAT I can manage my time effectively_
 
