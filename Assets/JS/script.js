@@ -4,8 +4,8 @@
   var currentDateEl = $('#currentDay');
 
   // Displaying today's date using moment format.
-  var today = moment().format('dddd MMMM, Do');
-  currentDateEl.text(today);
+  var todayDate = moment().format('dddd MMMM, Do');
+  currentDateEl.text(todayDate);
 
   var container = $(".containerBlocks");
 
