@@ -1,15 +1,31 @@
+// this is the current day that it's linked with html and shows the current time on the screen.
 var currentDateEl = $('#currentDay');
+
+//this is the container that it's linked with html and contains all the times, the text container and buttons 
 var container = $(".container");
 
+//times variables that are inside the container
+var hour9 = $("#9AM");
+var hour10 = $("#10AM");
+var hour11= $("#11AM");
+var hour12 = $("#12PM");
+var hour13 = $("#13PM");
+var hour14 = $("#14PM");
+var hour15 = $("#15PM");
+var hour16 = $("#16PM");
+var hour17 = $("#17PM");
+
+//arrays of all the times
+var hours= [hour9, hour10, hour11, hour12, hour13, hour14, hour15, hour16, hour17]
+console.log(hours);
+
+
 //Displayed at the top of the calendar the current day using moment format.
-  var todayDate = moment().format('dddd MMMM, Do');
-  currentDateEl.text(todayDate);
+var todayDate = moment().format('dddd MMMM, Do');
+currentDateEl.text(todayDate);
 
 
 // Create a `<p>` element to store the quote's author and assign to a new variable
-
-
-//create 9 divs with a div
 
 
 
