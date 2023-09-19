@@ -1,27 +1,15 @@
 var currentDateEl = $('#currentDay');
-var container = $(".containerBlocks");
+var container = $(".container");
 
 //Displayed at the top of the calendar the current day using moment format.
   var todayDate = moment().format('dddd MMMM, Do');
   currentDateEl.text(todayDate);
 
 
-  // Each hour uses moment js to obtain the specified time in the parentheses.
-  var hour9 = moment().hour(9);
-  var hour10 = moment().hour(10);
-  var hour11 = moment().hour(11);
-  var hour12 = moment().hour(12);
-  var hour13 = moment().hour(13);
-  var hour14 = moment().hour(14);
-  var hour15 = moment().hour(15);
-  var hour16 = moment().hour(16);
-  var hour17 = moment().hour(17);
+// Create a `<p>` element to store the quote's author and assign to a new variable
 
-  //Array of all the times that we need. From 9 to 17.
-  var hours=[hour9, hour10, hour11, hour12, hour13, hour14, hour15, hour16, hour17];
-  
-  console.log(hours);
 
+//create 9 divs with a div
 
 
 
