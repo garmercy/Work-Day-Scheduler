@@ -1,4 +1,4 @@
-# 📝 Work Day Scheduler 📝 
+# Work Day Scheduler 📝 
 
 I created a calendar application by modifying starter code. 
 
