@@ -183,7 +183,7 @@ $(function changeColor () {
 
 
 $(function savingContent() {
-// This function records on the local storage the info when the user clicks the button.
+// This function records the data on the local storage when the user click the button.
 
     $("#button9").on("click", function () { 
         var square9 = $("#saveContent9").val().trim();
