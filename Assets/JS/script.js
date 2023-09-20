@@ -41,134 +41,135 @@ $(function changeColor () {
   var time16 = moment().hour(16);
   var time17 = moment().hour(17);
   var time18 = moment().hour(18);
+ 
 
   console.log (time9);
  
   //Change the colour of the background based on the current time
   //Hour 9
-  if (currentTime == time9) {
-      $("#9AM").css('background-color: red');
-      console.log("working");
+  if (moment().isBetween(time9, time10)) {
+      $("#9AM").css("background-color", "red");
+      console.log("working present");
   }
-  else if(currentTime > time9){
-    $("#9AM").css('background-color: grey');
-    console.log("working");
+  else if(moment().isAfter(time10)){
+    $("#9AM").css("background-color", "grey");
+    console.log("working past");
   }
   else{
-    $("#9AM").css('background-color: green');
-    console.log("working");
+    $("#9AM").css("background-color", "green");
+    console.log("working future");
   }
 
   //Hour 10
-  if (currentTime == time10) {
-      $("#10AM").css('background-color: red');
-      console.log("working");
+  if (moment().isBetween(time10, time11)) {
+      $("#10AM").css("background-color", "red");
+      console.log("working present");
   }
-  else if (currentTime > time10) {
-      $("#10AM").css('background-color: grey');
-      console.log("working");
+  else if (moment().isAfter(time11)) {
+      $("#10AM").css("background-color", "grey");
+      console.log("working past");
   }
   else {
-      $("#10AM").css('background-color: green');
-      console.log("working");
+      $("#10AM").css("background-color", "green");
+      console.log("working future");
   }
 
   //Hour 11
-  if (currentTime == time11) {
-      $("#11AM").css('background-color: red');
-      console.log("working");
+  if (moment().isBetween(time11, time12)) {
+      $("#11AM").css("background-color", "red");
+      console.log("working present");
   }
-  else if (currentTime > time11) {
-      $("#11AM").css('background-color: grey');
-      console.log("working");
+  else if (moment().isAfter(time12)) {
+      $("#11AM").css("background-color", "grey");
+      console.log("working past");
   }
   else {
-      $("#11AM").css('background-color: green');
-      console.log("working");
+      $("#11AM").css("background-color", "green");
+      console.log("working future");
   }
 
 //Hour 12
-  if (currentTime == time12) {
-      $("#12PM").css('background-color: red');
-      console.log("working");
+  if (moment().isBetween(time12, time13)) {
+      $("#12PM").css("background-color", "red");
+      console.log("working present");
   }
-  else if (currentTime > time12) {
-      $("#12PM").css('background-color: grey');
-      console.log("working");
+  else if (moment().isAfter(time13)) {
+      $("#12PM").css("background-color", "grey");
+      console.log("working past");
   }
   else {
-      $("#12PM").css('background-color: green');
-      console.log("working");
+      $("#12PM").css("background-color", "green");
+      console.log("working future");
   }
 
 //Hour 13
-  if (currentTime == time13) {
-      $("#13PM").css('background-color: red');
-      console.log("working");
+  if (moment().isBetween(time13, time14)) {
+      $("#13PM").css("background-color", "red");
+      console.log("working present");
   }
-  else if (currentTime > time13) {
-      $("#13PM").css('background-color: grey');
-      console.log("working");
+  else if (moment().isAfter(time14)) {
+      $("#13PM").css("background-color", "grey");
+      console.log("working past");
   }
   else {
-      $("#13PM").css('background-color: green');
-      console.log("working");
+      $("#13PM").css("background-color", "green");
+      console.log("working future");
   }
 
 //Hour 14
-  if (currentTime == time14) {
-      $("#14PM").css('background-color: red');
-      console.log("working");
+  if (moment().isBetween(time14, time15)) {
+      $("#14PM").css("background-color", "red");
+      console.log("working present");
   }
-  else if (currentTime > time14) {
-      $("#14PM").css('background-color: grey');
-      console.log("working");
+  else if (moment().isAfter(time15)) {
+      $("#14PM").css("background-color", "grey");
+      console.log("working past");
   }
   else {
-      $("#14PM").css('background-color: green');
-      console.log("working");
+      $("#14PM").css("background-color", "green");
+      console.log("working future");
   }
 
 //Hour 15
-  if (currentTime == time15){
-      $("#15PM").css('background-color: red');
-      console.log("working");
+  if (moment().isBetween(time15, time16)){
+      $("#15PM").css("background-color", "red");
+      console.log("working present");
   }
-  else if (currentTime > time15) {
-      $("#15PM").css('background-color: grey');
-      console.log("working");
+  else if (moment().isAfter(time16)) {
+      $("#15PM").css("background-color", "grey");
+      console.log("working past");
   }
   else {
-      $("#15PM").css('background-color: green');
-      console.log("working");
+      $("#15PM").css("background-color", "green");
+      console.log("working future");
   }
 
 //Hour 16
-  if (currentTime == time16) {
-      $("#16PM").css('background-color: red');
-      console.log("working");
+  if (moment().isBetween(time16, time17)) {
+      $("#16PM").css("background-color", "red");
+      console.log("working present");
   }
-  else if (currentTime > time16) {
-      $("#16PM").css('background-color: grey');
-      console.log("working");
+  else if (moment().isAfter(time17)) {
+      $("#16PM").css("background-color", "grey");
+      console.log("working past");
   }
   else {
-      $("#16PM").css('background-color: green');
-      console.log("working");
+      $("#16PM").css("background-color", "green");
+      console.log("working future");
   }
 
 //Hour 17
-  if (currentTime == time17) {
-      $("#17PM").css('background-color: red');
-      console.log("working");
+  if (moment().isBetween(time17, time18)) {
+      $("#17PM").css("background-color", "red");
+      console.log("working present");
   }
-  else if (currentTime > time17) {
-      $("#17PM").css('background-color: grey');
-      console.log("working");
+  else if (moment().isAfter(time18)) {
+      $("#17PM").css("background-color", "grey");
+      console.log("working past");
   }
   else {
-      $("#17PM").css('background-color: green');
-      console.log("working");
+      $("#17PM").css("background-color", "green");
+      console.log("working future");
   };
   
 });
