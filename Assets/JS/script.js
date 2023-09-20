@@ -1,4 +1,4 @@
-//time variables that are inside the container
+//Time variables that are connected with html
 var hour9 = $("#9AM");
 var hour10 = $("#10AM");
 var hour11= $("#11AM");
@@ -157,7 +157,6 @@ $(function savingContent() {
     $("#button11").on("click", function () {
         var square11 = $("#saveContent11").val().trim();
         localStorage.setItem('content11', JSON.stringify(square11));
-        
     })
     $("#button12").on("click", function () {
         var square12 = $("#saveContent12").val().trim();
