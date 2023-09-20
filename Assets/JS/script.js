@@ -1,6 +1,3 @@
-var currentDateEl = $('#currentDay');
-var container = $(".container");
-
 //time variables that are inside the container
 var hour9 = $("#9AM");
 var hour10 = $("#10AM");
@@ -23,9 +20,6 @@ var time15 = moment().hour(15);
 var time16 = moment().hour(16);
 var time17 = moment().hour(17);
 var time18 = moment().hour(18);
- 
-
-
 
 //Get the value of the content that it's saved in the localstorage
 $("#saveContent9").val( JSON.parse(localStorage.getItem('content9')));
@@ -38,16 +32,13 @@ $("#saveContent15").val( JSON.parse(localStorage.getItem('content15')));
 $("#saveContent16").val( JSON.parse(localStorage.getItem('content16')));
 $("#saveContent17").val( JSON.parse(localStorage.getItem('content17')));
 
-
 //Display at the top of the calendar the current day using moment format.
+var currentDateEl = $('#currentDay');
 var todayDate = moment().format('dddd MMMM, Do');
 currentDateEl.text(todayDate);
 
-
-
 //Function to change the colour of the timetables depending of the current time.
 $(function changeColor () {
-
   // Check if the current time matches with the timetables
   currentTime = moment().format("hh:mm:ss");
 
@@ -55,136 +46,106 @@ $(function changeColor () {
   //Hour 9
   if (moment().isBetween(time9, time10)) {
       $("#9AM").css("background-color", "#ff6961");
-
   }
   else if(moment().isAfter(time10)){
     $("#9AM").css("background-color", "#d3d3d3");
-
   }
   else{
     $("#9AM").css("background-color", "#77dd77");
-   
   }
 
   //Hour 10
   if (moment().isBetween(time10, time11)) {
-      $("#10AM").css("background-color", "#ff6961");
-
+    $("#10AM").css("background-color", "#ff6961");
   }
   else if (moment().isAfter(time11)) {
-      $("#10AM").css("background-color", "#d3d3d3");
-
+    $("#10AM").css("background-color", "#d3d3d3");
   }
   else {
-      $("#10AM").css("background-color", "#77dd77");
-
+    $("#10AM").css("background-color", "#77dd77");
   }
 
   //Hour 11
   if (moment().isBetween(time11, time12)) {
-      $("#11AM").css("background-color", "#ff6961");
- 
+    $("#11AM").css("background-color", "#ff6961");
   }
   else if (moment().isAfter(time12)) {
-      $("#11AM").css("background-color", "#d3d3d3");
-
+    $("#11AM").css("background-color", "#d3d3d3");
   }
   else {
-      $("#11AM").css("background-color", "#77dd77");
- 
+    $("#11AM").css("background-color", "#77dd77");
   }
 
   //Hour 12
   if (moment().isBetween(time12, time13)) {
-      $("#12PM").css("background-color", "#ff6961");
-   
+    $("#12PM").css("background-color", "#ff6961");
   }
   else if (moment().isAfter(time13)) {
-      $("#12PM").css("background-color", "#d3d3d3");
-  
+    $("#12PM").css("background-color", "#d3d3d3");
   }
   else {
-      $("#12PM").css("background-color", "#77dd77");
- 
+    $("#12PM").css("background-color", "#77dd77");
   }
 
   //Hour 13
   if (moment().isBetween(time13, time14)) {
-      $("#13PM").css("background-color", "#ff6961");
-   
+    $("#13PM").css("background-color", "#ff6961");
   }
   else if (moment().isAfter(time14)) {
-      $("#13PM").css("background-color", "#d3d3d3");
-
+    $("#13PM").css("background-color", "#d3d3d3");
   }
   else {
-      $("#13PM").css("background-color", "#77dd77");
- 
+    $("#13PM").css("background-color", "#77dd77");
   }
 
   //Hour 14
   if (moment().isBetween(time14, time15)) {
-      $("#14PM").css("background-color", "#ff6961");
- 
+    $("#14PM").css("background-color", "#ff6961");
   }
   else if (moment().isAfter(time15)) {
-      $("#14PM").css("background-color", "#d3d3d3");
-   
+    $("#14PM").css("background-color", "#d3d3d3");
   }
   else {
-      $("#14PM").css("background-color", "#77dd77");
-   
+    $("#14PM").css("background-color", "#77dd77");
   }
 
   //Hour 15
   if (moment().isBetween(time15, time16)){
-      $("#15PM").css("background-color", "#ff6961");
-    
+    $("#15PM").css("background-color", "#ff6961");
   }
   else if (moment().isAfter(time16)) {
-      $("#15PM").css("background-color", "#d3d3d3");
-    
+    $("#15PM").css("background-color", "#d3d3d3");
   }
   else {
-      $("#15PM").css("background-color", "#77dd77");
-    
+    $("#15PM").css("background-color", "#77dd77");
   }
 
   //Hour 16
   if (moment().isBetween(time16, time17)) {
-      $("#16PM").css("background-color", "#ff6961");
-    
+    $("#16PM").css("background-color", "#ff6961");
   }
   else if (moment().isAfter(time17)) {
-      $("#16PM").css("background-color", "#d3d3d3");
-    
+    $("#16PM").css("background-color", "#d3d3d3");
   }
   else {
-      $("#16PM").css("background-color", "#77dd77");
- 
+    $("#16PM").css("background-color", "#77dd77");
   }
 
   //Hour 17
   if (moment().isBetween(time17, time18)) {
-      $("#17PM").css("background-color", "#ff6961");
-   
+    $("#17PM").css("background-color", "#ff6961");
   }
   else if (moment().isAfter(time18)) {
-      $("#17PM").css("background-color", "#d3d3d3");
- 
+    $("#17PM").css("background-color", "#d3d3d3");
   }
   else {
-      $("#17PM").css("background-color", "#77dd77");
-    
+    $("#17PM").css("background-color", "#77dd77");
   };
   
 });
- 
-
 
 $(function savingContent() {
 // This function records the data on the local storage when the user click the button.
-
     $("#button9").on("click", function () { 
         var square9 = $("#saveContent9").val().trim();
         localStorage.setItem('content9', JSON.stringify(square9));
