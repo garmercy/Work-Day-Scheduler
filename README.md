@@ -11,14 +11,14 @@ The goals of this project are:
 ## How is it looks?
 
 ### The app detects the current time  
-![photo4](https://github.com/garmercy/Work-Day-Scheduler/assets/138730100/c5f3bcef-14d4-4993-9df6-5a718b584e5f)
+![photo11](https://github.com/garmercy/Work-Day-Scheduler/assets/138730100/23db2b4a-1dba-4cd4-8177-99d7f99ce4d5)
 
 ### Can detect if it's a past event because of the current time. The past events are marked in grey color.
-![photo2](https://github.com/garmercy/Work-Day-Scheduler/assets/138730100/d49c66bf-c616-4f98-8bfd-72d7b7d36f7d)
+![photo2](https://github.com/garmercy/Work-Day-Scheduler/assets/138730100/9dfdbc05-87c0-4f00-a3b3-1921a0bb50ba)
 
 ### Can detect if it's a future or current event because of the current time. 
 ### The future events are in green and the current events in red
-![photo3](https://github.com/garmercy/Work-Day-Scheduler/assets/138730100/bea1bb21-027e-4083-adda-102457a8586d)
+![photo3](https://github.com/garmercy/Work-Day-Scheduler/assets/138730100/e071f607-f401-45b9-9b57-43d8e8176364)
 
 ### The user can write any event and save it. After that when the user refresh the website, the events still there.
 ![photo5](https://github.com/garmercy/Work-Day-Scheduler/assets/138730100/a6acdaef-e251-4baa-b453-d4ef96204dc7)
