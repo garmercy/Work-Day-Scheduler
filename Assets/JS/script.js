@@ -48,127 +48,127 @@ $(function changeColor () {
   //Change the colour of the background based on the current time
   //Hour 9
   if (moment().isBetween(time9, time10)) {
-      $("#9AM").css("background-color", "red");
+      $("#9AM").css("background-color", "#ff6961");
       console.log("working present");
   }
   else if(moment().isAfter(time10)){
-    $("#9AM").css("background-color", "grey");
+    $("#9AM").css("background-color", "#d3d3d3");
     console.log("working past");
   }
   else{
-    $("#9AM").css("background-color", "green");
+    $("#9AM").css("background-color", "#77dd77");
     console.log("working future");
   }
 
   //Hour 10
   if (moment().isBetween(time10, time11)) {
-      $("#10AM").css("background-color", "red");
+      $("#10AM").css("background-color", "#ff6961");
       console.log("working present");
   }
   else if (moment().isAfter(time11)) {
-      $("#10AM").css("background-color", "grey");
+      $("#10AM").css("background-color", "#d3d3d3");
       console.log("working past");
   }
   else {
-      $("#10AM").css("background-color", "green");
+      $("#10AM").css("background-color", "#77dd77");
       console.log("working future");
   }
 
   //Hour 11
   if (moment().isBetween(time11, time12)) {
-      $("#11AM").css("background-color", "red");
+      $("#11AM").css("background-color", "#ff6961");
       console.log("working present");
   }
   else if (moment().isAfter(time12)) {
-      $("#11AM").css("background-color", "grey");
+      $("#11AM").css("background-color", "#d3d3d3");
       console.log("working past");
   }
   else {
-      $("#11AM").css("background-color", "green");
+      $("#11AM").css("background-color", "#77dd77");
       console.log("working future");
   }
 
 //Hour 12
   if (moment().isBetween(time12, time13)) {
-      $("#12PM").css("background-color", "red");
+      $("#12PM").css("background-color", "#ff6961");
       console.log("working present");
   }
   else if (moment().isAfter(time13)) {
-      $("#12PM").css("background-color", "grey");
+      $("#12PM").css("background-color", "#d3d3d3");
       console.log("working past");
   }
   else {
-      $("#12PM").css("background-color", "green");
+      $("#12PM").css("background-color", "#77dd77");
       console.log("working future");
   }
 
 //Hour 13
   if (moment().isBetween(time13, time14)) {
-      $("#13PM").css("background-color", "red");
+      $("#13PM").css("background-color", "#ff6961");
       console.log("working present");
   }
   else if (moment().isAfter(time14)) {
-      $("#13PM").css("background-color", "grey");
+      $("#13PM").css("background-color", "#d3d3d3");
       console.log("working past");
   }
   else {
-      $("#13PM").css("background-color", "green");
+      $("#13PM").css("background-color", "#77dd77");
       console.log("working future");
   }
 
 //Hour 14
   if (moment().isBetween(time14, time15)) {
-      $("#14PM").css("background-color", "red");
+      $("#14PM").css("background-color", "#ff6961");
       console.log("working present");
   }
   else if (moment().isAfter(time15)) {
-      $("#14PM").css("background-color", "grey");
+      $("#14PM").css("background-color", "#d3d3d3");
       console.log("working past");
   }
   else {
-      $("#14PM").css("background-color", "green");
+      $("#14PM").css("background-color", "#77dd77");
       console.log("working future");
   }
 
 //Hour 15
   if (moment().isBetween(time15, time16)){
-      $("#15PM").css("background-color", "red");
+      $("#15PM").css("background-color", "#ff6961");
       console.log("working present");
   }
   else if (moment().isAfter(time16)) {
-      $("#15PM").css("background-color", "grey");
+      $("#15PM").css("background-color", "#d3d3d3");
       console.log("working past");
   }
   else {
-      $("#15PM").css("background-color", "green");
+      $("#15PM").css("background-color", "#77dd77");
       console.log("working future");
   }
 
 //Hour 16
   if (moment().isBetween(time16, time17)) {
-      $("#16PM").css("background-color", "red");
+      $("#16PM").css("background-color", "#ff6961");
       console.log("working present");
   }
   else if (moment().isAfter(time17)) {
-      $("#16PM").css("background-color", "grey");
+      $("#16PM").css("background-color", "#d3d3d3");
       console.log("working past");
   }
   else {
-      $("#16PM").css("background-color", "green");
+      $("#16PM").css("background-color", "#77dd77");
       console.log("working future");
   }
 
 //Hour 17
   if (moment().isBetween(time17, time18)) {
-      $("#17PM").css("background-color", "red");
+      $("#17PM").css("background-color", "#ff6961");
       console.log("working present");
   }
   else if (moment().isAfter(time18)) {
-      $("#17PM").css("background-color", "grey");
+      $("#17PM").css("background-color", "#d3d3d3");
       console.log("working past");
   }
   else {
-      $("#17PM").css("background-color", "green");
+      $("#17PM").css("background-color", "#77dd77");
       console.log("working future");
   };
   
